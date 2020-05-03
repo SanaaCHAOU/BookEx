@@ -1,0 +1,64 @@
+/*
+Collection : users
+*/
+{
+    "firstName": "...",
+    "lastName": "...",
+    "email": "...", // unique
+    "username": "...",  // unique
+    "solde": "...",
+    "country": "...",
+    "city": "...",
+    "comments" : [
+        {
+            "email": "...",
+            "username": "...",
+            "text": "...",
+            "stars": 2, // 0-5
+            "time": "......"
+        }
+    ],
+    "books" : [
+        {
+            "isbn": "....",
+            "status": "", // Available, InUse 
+            "availableOn": "2020-03-29"
+        }
+    ]
+}
+
+/*
+    Collection : books
+*/
+{
+    "isbn" : "...", // unique
+    "title": "...",
+    "language" : "...",
+    "edition": "...",
+    "authors" : [
+        "...",
+        "..."
+    ],
+    "comments" : [
+        {
+            "email": "...",
+            "username": "...",
+            "text": "...",
+            "stars": 2, // 0-5
+            "time": "......"
+        }
+    ]
+}
+
+/*
+Collection : requests
+*/
+{
+    "from": "", // username
+    "to": "", // username
+    "isbn": "",
+    "time": "",
+    "startDate": "...",
+    "endDate": "...",
+    "status": "Accepted" // Pending, Accepted, Refused, Started, Returned
+}

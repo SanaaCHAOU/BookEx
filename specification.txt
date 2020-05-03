@@ -1,0 +1,7 @@
+1. Inscription (création de nouveau utilisateur)
+2. Ajouter un livre
+    Ajouter, supprimer, modifier
+3. Emprunter un livre
+    Chercher, Emprunter
+4. Ajouter commentaire sur un utilisateur + 5Stars
+5. Ajouter commentaire sur un livre + 5Stars

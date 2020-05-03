@@ -1,0 +1,21 @@
+.book-item-box {
+    padding: 5px;
+    margin-bottom: 5px; 
+    border-radius: 5px;
+    border: 1px solid rgb(227, 225, 218);
+}
+
+.book-img {
+    border: 1 solid black;
+    float: left;
+    margin-right: 5px;
+}
+
+.book-desc {
+    text-align: left;
+    padding: 5px;
+}
+
+.selected {
+    border: 1px solid blue;
+}

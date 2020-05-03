@@ -1,0 +1,21 @@
+I. Modélisation de la base de données
+    (fichier design.json)
+II. Mise en place de l'environnement
+    1. virtualenv 
+        Pour créer un environnement isolé pour le projet 
+        (évite de mélanger tous le packages installés globalement avec ce qu'on a besoindans le projet)
+    
+    2. Création de l'environnement virtuel
+        cmd de création : virtualenv.exe -p C:\ProgramData\Anaconda3\python.exe venv 
+        cmd d'activation : .\venv\Scripts\activate
+
+    3. flask, flask-cors, flask-pymongo
+        - Création de l'api REST (Déf : https://www.lemagit.fr/definition/API-RESTful)
+        - Client MongoDB (flask-pymongo)
+        - cmd : pip install flask flask-cors flask-pymongo 
+    4. lister les packages installer dans l 'environnement
+        - cmd : pip freeze
+    5. activer l'evnironement du projet
+        - cmd : source  ./venv/Scripts/activate
+
+
